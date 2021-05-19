@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: #224941 url('./img/bg.jpg') no-repeat center center/cover;
+  background: #224941 url("./img/bg.jpg") no-repeat center center/cover;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   min-height: 100vh;
   overflow: hidden;
   display: flex;
@@ -90,11 +90,11 @@ body {
 
 @keyframes grow {
   from {
-    transform: scale(1);
+    transform: scale(0.1);
   }
 
   to {
-    transform: scale(1.2);
+    transform: scale(2);
   }
 }
 
@@ -104,10 +104,10 @@ body {
 
 @keyframes shrink {
   from {
-    transform: scale(1.2);
+    transform: scale(2);
   }
 
   to {
-    transform: scale(1);
+    transform: scale(0.1);
   }
 }
